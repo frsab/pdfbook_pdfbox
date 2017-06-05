@@ -26,9 +26,8 @@ public class App {
 		pl = new PropertyLoader();
 		//System.out.println(pl.getDefaultProps().getProperty("name"));
 		//System.out.println(pl.getApplicationProps().getProperty("inupt.folder"));
-
 		//afficher(Constante.DOSSIER_PERE, 0);
-		mergeFiles(Constante.DOSSIER_PERE, Constante.DOSSIER_TARGET);
+		mergeFiles(Constante.DOSSIER_SRC, Constante.DOSSIER_TARGET);
 
 	}
 
